@@ -1,0 +1,14 @@
+.profile__photo {
+  max-height: 217px;
+  overflow: hidden;
+}
+.user__avatar img {
+  border-radius: 100%;
+  padding: 0 20px;
+}
+.profile__user,
+.user {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}

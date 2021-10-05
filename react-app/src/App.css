@@ -1,0 +1,22 @@
+.App {
+  display: grid;
+  padding: 20px 60px;
+  grid-template-columns: 10% 1fr;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: lightseagreen;
+}
+li {
+  list-style-type: none;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 100wh;
+  box-sizing: border-box;
+  font-weight: 400px;
+}

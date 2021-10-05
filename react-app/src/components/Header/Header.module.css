@@ -1,0 +1,8 @@
+.header {
+    grid-column: 1 / span 2;
+    background-color: grey;
+    height: 70px;
+  }
+  .header__logo {
+    max-width: 36px;
+  }

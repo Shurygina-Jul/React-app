@@ -1,0 +1,10 @@
+.post_photo img {
+  border-radius: 100%;
+  max-width: 59px;
+  padding: 10px;
+}
+.post {
+  display: flex;
+  align-items: center;
+  max-width: 720px;
+}
