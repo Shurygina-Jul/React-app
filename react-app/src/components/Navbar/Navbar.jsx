@@ -1,24 +1,25 @@
 import React from "react";
+import NavBarItem from "./Item";
 import s from "./Navbar.module.css";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <div className={s.navbar}>
       <ul>
         <li>
-          <a href="/"> Profile</a>
+          <NavBarItem name="Profile" />
         </li>
         <li>
-          <a href="/">Messages</a>
+          <NavBarItem name="Message" />
         </li>
         <li>
-          <a href="/">News</a>
+          <NavBarItem name="News" />
         </li>
         <li>
-          <a href="/">Music</a>
+          <NavBarItem name="Music" />
         </li>
         <li>
-          <a href="/">Settings</a>
+          <NavBarItem name="Settings" />
         </li>
       </ul>
     </div>

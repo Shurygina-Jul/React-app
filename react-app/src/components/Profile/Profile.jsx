@@ -1,4 +1,5 @@
 import React from "react";
+import Description from "./Description/Description";
 import MyPosts from "./MyPosts/MyPosts";
 import s from "./Profile.module.css";
 
@@ -12,14 +13,9 @@ const Profile = () => {
         <div className={s.user__avatar}>
           <img src="/images/avatar.jpg" alt="avatar"></img>
         </div>
-        <div className={s.user__description}>
-          <p> Julia Shurygina</p>
-          <p>Date of Birth: 1 march</p>
-          <p>City: Voronezh</p>
-          <p> Education: VSPU'12</p>
-        </div>
+        <Description/>
       </article>
-      <MyPosts/>
+      <MyPosts button="Add post" text="Enter your message" />
     </section>
   );
 };
